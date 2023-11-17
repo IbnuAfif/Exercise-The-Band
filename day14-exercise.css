@@ -1,0 +1,119 @@
+#navbar {
+    background-color: black;
+        font-size: 15px;
+        color: #fff !important;
+        display: flex;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 2000px;
+    width: 100%;
+}
+
+.img {
+    width: 100%;
+}
+
+.band {
+    padding: 64px 16px;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin: 10px 0px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.content {
+    text-align: justify;
+    margin: 15px;
+}
+
+i {
+    color: #8f8f8f;
+}
+
+p {
+    width: 100%;
+}
+
+.memberband {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 32px 0px;
+    width: 100%;
+}
+
+.member img {
+    aspect-ratio: 1; 
+    max-width: 158px;
+}
+
+.member {
+    width: 100%;
+}
+
+.member p {
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+}
+
+.caption {
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding: 32px 16px;
+    padding: 32px 16px;
+    height: 98px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+  }
